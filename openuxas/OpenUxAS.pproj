@@ -1,0 +1,13 @@
+<!-- P Project file for OpenUxAS model -->
+<Project>
+<ProjectName>OpenUxAS</ProjectName>
+<InputFiles>
+	<PFile>./PSrc/</PFile>
+	<PFile>./PTst/</PFile>
+	<PFile>./PSpec/</PFile>
+</InputFiles>
+<OutputDir>./PGenerated/</OutputDir>
+<!-- Add the dependencies for the Timer machine -->
+<IncludeProject>../timer/Timer.pproj</IncludeProject>
+</Project>
+
